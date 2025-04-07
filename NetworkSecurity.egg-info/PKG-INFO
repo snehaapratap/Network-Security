@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: NetworkSecurity
+Version: 0.0.1
+Author: Sneha Pratap
+Author-email: snehapratap248@gmail.com
+Requires-Dist: python-dotenv
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: setuptools
+Requires-Dist: pymongo
+Requires-Dist: certifi
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
