@@ -4,6 +4,7 @@ numpy
 setuptools
 pymongo
 certifi
-
+pymongo[srv]
+pymomgo
 
 #-e .
