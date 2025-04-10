@@ -46,9 +46,11 @@ class NetworkExtract():
         except Exception as e:
             raise NetworkSecurityException(e,sys)
         
-        if __name__=='__main__':
-            file_path="networkdata\phishingData.csv"
-            DATABASE=""
-            Collection=""
-            networkjobj=NetworkExtract()
-            records=networkjobj.cv_to_json_convertor(file_path)
+if __name__=='__main__':
+    file_path="networkdata\phishingData.csv"
+    DATABASE="snehapratap248"
+    Collection="networkdata"
+    networkjobj=NetworkExtract()
+    records=networkjobj.cv_to_json_convertor(file_path=file_path)
+    no_of_records=networkjobj.insert_data_mongodb(records=records,database=DATABASE,collection=Collection) 
+    print(no_of_records) 
