@@ -1,6 +1,6 @@
 from datetime import datetime
 import os
-from networksecurity.constants import training_pipeline
+from networksecurity.constant import training_pipeline
 
 print(training_pipeline.PIPELINE_NAME)
 print(training_pipeline.ARTIFACT_DIR)
